@@ -43,7 +43,7 @@ function studio(): Studio {
     servers: [],
     isOwner: false,
     supabaseUrl: "",
-  } as Studio;
+  } as unknown as Studio;
 }
 
 describe("patchCatalogSkill", () => {
