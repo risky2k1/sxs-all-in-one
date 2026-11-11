@@ -1,0 +1,99 @@
+{
+  "app": {
+    "title": "Sword x Staff",
+    "subtitle": "Quản lý tài khoản và sinh prompt"
+  },
+  "nav": {
+    "overview": "1. Thông tin",
+    "skills": "2. Kỹ năng",
+    "equipment": "3. Trang bị",
+    "resources": "4. Tài nguyên",
+    "companions": "5. Đồng hành",
+    "prompt": "Prompt",
+    "characters": "Nhân vật",
+    "assets": "Ảnh",
+    "logout": "Đăng xuất"
+  },
+  "login": {
+    "title": "Đăng nhập",
+    "email": "Email",
+    "password": "Mật khẩu",
+    "submit": "Vào studio",
+    "registerTitle": "Tạo tài khoản chủ",
+    "register": "Tạo và đăng nhập",
+    "hint": "Chỉ tài khoản đầu tiên được tạo. Sau đó đăng ký trên app sẽ đóng."
+  },
+  "characters": {
+    "title": "Nhân vật",
+    "create": "Tạo nhân vật trống",
+    "name": "Tên nhân vật",
+    "duplicate": "Nhân bản",
+    "delete": "Xóa",
+    "rename": "Đổi tên",
+    "open": "Mở"
+  },
+  "save": {
+    "idle": "Chưa lưu thay đổi mới",
+    "saving": "Đang lưu…",
+    "saved": "Đã lưu",
+    "error": "Lưu thất bại"
+  },
+  "overview": {
+    "title": "Thông tin nhân vật",
+    "playerName": "Tên nhân vật",
+    "serverDay": "Ngày server",
+    "level": "Level",
+    "combatPower": "Total Power",
+    "currentClass": "Class",
+    "rankTier": "Rank",
+    "totalJobLevel": "Total Job Level",
+    "warriorJobLevel": "Warrior Level",
+    "duelistJobLevel": "Duelist Level",
+    "mageJobLevel": "Mage Level",
+    "currentMap": "Map",
+    "mirageTower": "Fantasia Ascent",
+    "dailyDungeonStatus": "Daily Dungeon",
+    "spendingTier": "Spending"
+  },
+  "skills": {
+    "title": "Kho kỹ năng",
+    "equipped": "Đang lắp",
+    "active": "Technique",
+    "passive": "Charm",
+    "ownedOnly": "Chỉ skill đang có",
+    "search": "Tìm tên Việt, Anh, Trung hoặc hệ",
+    "add": "Thêm kỹ năng",
+    "unequip": "Tháo"
+  },
+  "equipment": {
+    "title": "Trang bị và cộng hưởng",
+    "slots": "Skill slots",
+    "applyAll": "Đặt cả 8 ô",
+    "level": "Cấp",
+    "quality": "Phẩm",
+    "notes": "Ghi chú"
+  },
+  "resources": {
+    "title": "Tài nguyên"
+  },
+  "companions": {
+    "title": "Đồng hành, pet và gia viên",
+    "level": "Affection"
+  },
+  "prompt": {
+    "title": "Câu hỏi gửi AI",
+    "copy": "Sao chép prompt",
+    "copied": "Đã sao chép"
+  },
+  "assets": {
+    "title": "Ảnh icon, skill, trang bị",
+    "upload": "Cập nhật ảnh",
+    "reset": "Dùng ảnh mặc định",
+    "usingDefault": "Đang dùng ảnh mặc định",
+    "usingCustom": "Đang dùng ảnh đã tải lên"
+  },
+  "io": {
+    "export": "Xuất JSON",
+    "import": "Nhập JSON"
+  }
+}

@@ -1,0 +1,363 @@
+{
+  "character": {
+    "name": "Aquariuss",
+    "server_day": 4,
+    "level": 44,
+    "combat_power": "68.5K",
+    "current_class": "Duelist",
+    "rank_tier": "Elite I",
+    "total_job_level": 20,
+    "warrior_job_level": 18,
+    "mage_job_level": 2,
+    "duelist_job_level": 5,
+    "current_map": "Cinder Ridge",
+    "mirage_tower": "F85",
+    "daily_dungeon_status": "Used 2/2 free runs",
+    "spending_tier": "Light spend / monthly card",
+    "gold": "73.5K",
+    "morning_star": "8.51K",
+    "colored_diamond": "240",
+    "stamina": "134/300",
+    "battle_essence": "420",
+    "normal_prayer_tickets": 21,
+    "class_prayer_tickets": 5,
+    "skill_select_tickets": 1,
+    "prayer_progress": "200/200 (chest I opened for Blade of Lament)",
+    "secret_realm_total": 146,
+    "hammer_stone": 48,
+    "pickaxe_gold": 12,
+    "glove_essence": 44,
+    "shovel_sand": 42,
+    "daily_buy_pattern": "Buy 2-2-2-2 each day (Gilded Depths only)",
+    "fate_fruits": 35,
+    "time_crystals": 4,
+    "selected_pet": "Locked until Lv.50 (Aegiswing / Nyxarchon)",
+    "pet_status": "Saving Bond Trinkets and Summon Crystals (60 Summon Crystals for a Mythic Fantomon)",
+    "relic_progress": "Farming Rare relics before Cinder Ridge; Dark and Fire",
+    "cart_stone_lv": 18,
+    "cart_ore_lv": 17,
+    "cart_wood_lv": 16,
+    "cart_sand_lv": 12,
+    "cart_other_lv": 10,
+    "bed_lv": 15,
+    "goddess_statues": "Opened every current area before the free bed speedup",
+    "shop_routine": "Vendor Booth: 2-3 refreshes for discounted Stone and Wood",
+    "custom_question": "I just became a Duelist (Lv.44). With this account, suggest the best 4 Techniques and 4 Charms skills for maps, the tower, and bosses, how to spend Dawnium until Lv.82, and what to watch for on Cinder Ridge."
+  },
+  "equipment": [
+    {
+      "slot_key": "weapon",
+      "name": "Main Weapon",
+      "icon_key": "eq_weapon",
+      "level": 38,
+      "quality": "Legendary",
+      "notes": "Priority 1"
+    },
+    {
+      "slot_key": "subWeapon",
+      "name": "Sub Weapon",
+      "icon_key": "eq_subWeapon",
+      "level": 35,
+      "quality": "Epic",
+      "notes": "Caught up to the resonance tier"
+    },
+    {
+      "slot_key": "helmet",
+      "name": "Helmet",
+      "icon_key": "eq_helmet",
+      "level": 35,
+      "quality": "Legendary",
+      "notes": "Balanced at +35"
+    },
+    {
+      "slot_key": "armor",
+      "name": "Armor",
+      "icon_key": "eq_armor",
+      "level": 35,
+      "quality": "Legendary",
+      "notes": "Balanced at +35"
+    },
+    {
+      "slot_key": "boots",
+      "name": "Boots",
+      "icon_key": "eq_boots",
+      "level": 35,
+      "quality": "Legendary",
+      "notes": "Balanced at +35"
+    }
+  ],
+  "skill_slots": [
+    {
+      "slot_index": 1,
+      "slot_kind": "Technique",
+      "level": 36
+    },
+    {
+      "slot_index": 2,
+      "slot_kind": "Technique",
+      "level": 36
+    },
+    {
+      "slot_index": 3,
+      "slot_kind": "Technique",
+      "level": 36
+    },
+    {
+      "slot_index": 4,
+      "slot_kind": "Technique",
+      "level": 36
+    },
+    {
+      "slot_index": 5,
+      "slot_kind": "Charm",
+      "level": 35
+    },
+    {
+      "slot_index": 6,
+      "slot_kind": "Charm",
+      "level": 35
+    },
+    {
+      "slot_index": 7,
+      "slot_kind": "Charm",
+      "level": 35
+    },
+    {
+      "slot_index": 8,
+      "slot_kind": "Charm",
+      "level": 35
+    }
+  ],
+  "skills": [
+    {
+      "skill_id": "r2_flame_aura",
+      "owned": true,
+      "quality": "Legendary",
+      "stars": 1,
+      "equipped_slot": 1
+    },
+    {
+      "skill_id": "r1_whirlwind",
+      "owned": true,
+      "quality": "Legendary",
+      "stars": 1,
+      "equipped_slot": 2
+    },
+    {
+      "skill_id": "r2_sunset_sword",
+      "owned": true,
+      "quality": "Epic",
+      "stars": 1,
+      "equipped_slot": 3
+    },
+    {
+      "skill_id": "r2_flash_dash",
+      "owned": true,
+      "quality": "Epic",
+      "stars": 1,
+      "equipped_slot": 4
+    },
+    {
+      "skill_id": "r1_heavy_impact",
+      "owned": true,
+      "quality": "Legendary",
+      "stars": 1,
+      "equipped_slot": 0
+    },
+    {
+      "skill_id": "r1_wind_blade",
+      "owned": true,
+      "quality": "Legendary",
+      "stars": 1,
+      "equipped_slot": 0
+    },
+    {
+      "skill_id": "r1_mountain_collapse",
+      "owned": true,
+      "quality": "Legendary",
+      "stars": 1,
+      "equipped_slot": 0
+    },
+    {
+      "skill_id": "r1_quadrant_slash",
+      "owned": true,
+      "quality": "Legendary",
+      "stars": 1,
+      "equipped_slot": 0
+    },
+    {
+      "skill_id": "r1_luminous_shield",
+      "owned": true,
+      "quality": "Epic",
+      "stars": 2,
+      "equipped_slot": 0
+    },
+    {
+      "skill_id": "r1_diving_gale",
+      "owned": true,
+      "quality": "Epic",
+      "stars": 2,
+      "equipped_slot": 0
+    },
+    {
+      "skill_id": "r1_boiling_blood",
+      "owned": true,
+      "quality": "Epic",
+      "stars": 2,
+      "equipped_slot": 0
+    },
+    {
+      "skill_id": "r1_leap_attack",
+      "owned": true,
+      "quality": "Epic",
+      "stars": 2,
+      "equipped_slot": 0
+    },
+    {
+      "skill_id": "r1_gravity_pull",
+      "owned": true,
+      "quality": "Epic",
+      "stars": 1,
+      "equipped_slot": 0
+    },
+    {
+      "skill_id": "r1_phantom_assault",
+      "owned": true,
+      "quality": "Epic",
+      "stars": 1,
+      "equipped_slot": 0
+    },
+    {
+      "skill_id": "r2_darkness",
+      "owned": true,
+      "quality": "Legendary",
+      "stars": 1,
+      "equipped_slot": 0
+    },
+    {
+      "skill_id": "r1_block_awareness",
+      "owned": true,
+      "quality": "Legendary",
+      "stars": 1,
+      "equipped_slot": 1
+    },
+    {
+      "skill_id": "r2_indomitable_will",
+      "owned": true,
+      "quality": "Epic",
+      "stars": 1,
+      "equipped_slot": 2
+    },
+    {
+      "skill_id": "r1_blade_of_lament",
+      "owned": true,
+      "quality": "Legendary",
+      "stars": 1,
+      "equipped_slot": 3
+    },
+    {
+      "skill_id": "r1_insightful_eye",
+      "owned": true,
+      "quality": "Legendary",
+      "stars": 1,
+      "equipped_slot": 4
+    },
+    {
+      "skill_id": "r2_crit_mastery",
+      "owned": true,
+      "quality": "Epic",
+      "stars": 1,
+      "equipped_slot": 0
+    },
+    {
+      "skill_id": "r1_iron_fortress",
+      "owned": true,
+      "quality": "Legendary",
+      "stars": 1,
+      "equipped_slot": 0
+    },
+    {
+      "skill_id": "r1_warrior_ess",
+      "owned": true,
+      "quality": "Epic",
+      "stars": 1,
+      "equipped_slot": 0
+    },
+    {
+      "skill_id": "r1_strength_rules",
+      "owned": true,
+      "quality": "Epic",
+      "stars": 2,
+      "equipped_slot": 0
+    },
+    {
+      "skill_id": "r1_feline_dance",
+      "owned": true,
+      "quality": "Epic",
+      "stars": 2,
+      "equipped_slot": 0
+    },
+    {
+      "skill_id": "r1_crystal_armor",
+      "owned": true,
+      "quality": "Epic",
+      "stars": 1,
+      "equipped_slot": 0
+    },
+    {
+      "skill_id": "r1_life_blessing",
+      "owned": true,
+      "quality": "Epic",
+      "stars": 1,
+      "equipped_slot": 0
+    },
+    {
+      "skill_id": "r1_blade_tempest",
+      "owned": true,
+      "quality": "Epic",
+      "stars": 1,
+      "equipped_slot": 0
+    },
+    {
+      "skill_id": "r1_pure_protect",
+      "owned": true,
+      "quality": "Epic",
+      "stars": 1,
+      "equipped_slot": 0
+    },
+    {
+      "skill_id": "r1_counter_blade",
+      "owned": true,
+      "quality": "Epic",
+      "stars": 1,
+      "equipped_slot": 0
+    }
+  ],
+  "companions": [
+    {
+      "companion_id": "qin",
+      "level": 28,
+      "priority": "Priority 1 (push 35, then 50, then 70)"
+    },
+    {
+      "companion_id": "akane",
+      "level": 26,
+      "priority": "Priority 2 (push 35, then 60 for pet tickets)"
+    },
+    {
+      "companion_id": "hermes",
+      "level": 25,
+      "priority": "Priority 3 (push 35, then 60)"
+    },
+    {
+      "companion_id": "killian",
+      "level": 22,
+      "priority": "Hold (stop at 35 after the 14-day quest)"
+    },
+    {
+      "companion_id": "village_chief",
+      "level": 20,
+      "priority": "Stop at Lv.20 (give gifts to Qin)"
+    }
+  ]
+}

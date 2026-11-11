@@ -1,0 +1,13 @@
+---
+description: Quy ước Sword x Staff — dữ liệu studio và cấu trúc feature
+alwaysApply: true
+---
+
+# Sword x Staff
+
+- UI qua `t()` trong `src/locales/vi.json`. Trả lời người dùng bằng tiếng Việt.
+- Supabase là remote. Đừng giả định query local là tức thì.
+- `loadStudio` chỉ nằm trong `src/app/c/[id]/layout.tsx`. Page tab (`overview`, `skills`, `equipment`, `resources`, `companions`, `prompt`) trả `null`. View đổi trong `StudioShell`.
+- Import feature khác qua `@/features/<tên>`, không qua file sâu. `src/shared` không import feature.
+- Ghi bằng Server Action. Control đổi draft ngay trong `useSave`. `router.refresh()` chỉ khi draft không mô tả được kết quả.
+- Next.js 16 khác bản cũ. Đọc `node_modules/next/dist/docs/` trước khi viết API mới.

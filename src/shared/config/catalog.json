@@ -1,0 +1,1558 @@
+{
+  "skills": [
+    {
+      "id": "r1_whirlwind",
+      "tier_class": "R1",
+      "skill_type": "active",
+      "vn": "Xoáy Kiếm",
+      "en": "Whirlwind Slash",
+      "cn": "旋风斩",
+      "cd": "1 Turn",
+      "element": "Physical",
+      "tier": "S+",
+      "description": "Xoay kiếm 4 hit AoE (8 ô xung quanh). Trụ cột kích Hỏa Ấn và Hút Máu xuyên suốt R1-R3.",
+      "icon_key": "r1_whirlwind"
+    },
+    {
+      "id": "r1_heavy_impact",
+      "tier_class": "R1",
+      "skill_type": "active",
+      "vn": "Siêu Trọng Kích",
+      "en": "Heavy Impact",
+      "cn": "超重击",
+      "cd": "2 Turn",
+      "element": "Physical",
+      "tier": "S+",
+      "description": "Đòn bổ đơn mục tiêu sát thương cực lớn, ưu tiên khóa quái/Boss khổng lồ và hất tung.",
+      "icon_key": "r1_heavy_impact"
+    },
+    {
+      "id": "r1_lion_combo",
+      "tier_class": "R1",
+      "skill_type": "active",
+      "vn": "Sư Tử Liên Trảm",
+      "en": "Lion Combo",
+      "cn": "狮子连斩",
+      "cd": "0 Turn",
+      "element": "Physical",
+      "tier": "A",
+      "description": "Chém đơn 3 hit 0CD. Nền tảng ghép chuỗi Đa Đòn (Multi-Hit) ở R3.",
+      "icon_key": "r1_lion_combo"
+    },
+    {
+      "id": "r1_mountain_collapse",
+      "tier_class": "R1",
+      "skill_type": "active",
+      "vn": "Băng Sơn (Nhảy Đập)",
+      "en": "Mountain Collapse",
+      "cn": "崩山",
+      "cd": "1 Turn",
+      "element": "Physical",
+      "tier": "A",
+      "description": "Nhảy đập AoE 2 ô gây sát thương va chạm chuẩn, dọn quái cụm đầu game rất tốt.",
+      "icon_key": "r1_mountain_collapse"
+    },
+    {
+      "id": "r1_leap_attack",
+      "tier_class": "R1",
+      "skill_type": "active",
+      "vn": "Nhảy Bổ (Khiêu Phách)",
+      "en": "Leap Attack",
+      "cn": "跳劈",
+      "cd": "1 Turn",
+      "element": "Physical",
+      "tier": "A",
+      "description": "Nhảy áp sát mục tiêu kèm debuff Phá Giáp (giảm thủ), rất hữu ích khi đánh Boss/Thánh Thú.",
+      "icon_key": "r1_leap_attack"
+    },
+    {
+      "id": "r1_gravity_pull",
+      "tier_class": "R1",
+      "skill_type": "active",
+      "vn": "Khiên Dẫn (Hút Quái)",
+      "en": "Gravity Pull",
+      "cn": "牵引",
+      "cd": "1 Turn",
+      "element": "Physical",
+      "tier": "A",
+      "description": "Kéo gom quái đánh xa về phía bản thân, dùng để trị quái thả diều hoặc gom cụm.",
+      "icon_key": "r1_gravity_pull"
+    },
+    {
+      "id": "r1_wind_blade",
+      "tier_class": "R1",
+      "skill_type": "active",
+      "vn": "Phong Nhận Trảm",
+      "en": "Wind Blade Slash",
+      "cn": "风刃斩",
+      "cd": "1 Turn",
+      "element": "Wind",
+      "tier": "B",
+      "description": "Chém gió AoE đẩy lùi quái và tự lùi ra xa để thả diều giảm sát thương nhận vào.",
+      "icon_key": "r1_wind_blade"
+    },
+    {
+      "id": "r1_diving_gale",
+      "tier_class": "R1",
+      "skill_type": "active",
+      "vn": "Trụy Phong Xung Kích",
+      "en": "Diving Gale",
+      "cn": "坠风冲击",
+      "cd": "0 Turn",
+      "element": "Wind",
+      "tier": "B",
+      "description": "Kỹ năng AoE hệ Phong 0CD, hỗ trợ khắc hệ Slime và giữ khoảng cách.",
+      "icon_key": "r1_diving_gale"
+    },
+    {
+      "id": "r1_luminous_shield",
+      "tier_class": "R1",
+      "skill_type": "active",
+      "vn": "Hồ Quang Linh Thuẫn",
+      "en": "Luminous Shield",
+      "cn": "弧光灵盾",
+      "cd": "1 Turn",
+      "element": "Light",
+      "tier": "B",
+      "description": "Tạo khiên chắn máu tạm thời khi cần đóng vai trò bán-Tanker vượt ải.",
+      "icon_key": "r1_luminous_shield"
+    },
+    {
+      "id": "r1_quadrant_slash",
+      "tier_class": "R1",
+      "skill_type": "active",
+      "vn": "Tứ Phương Trảm",
+      "en": "Quadrant Slash",
+      "cn": "四方斩",
+      "cd": "1 Turn",
+      "element": "Physical",
+      "tier": "C",
+      "description": "Chém dịch chuyển phạm vi 1 ô xung quanh.",
+      "icon_key": "r1_quadrant_slash"
+    },
+    {
+      "id": "r1_phantom_assault",
+      "tier_class": "R1",
+      "skill_type": "active",
+      "vn": "Ảo Ảnh Kỳ Tập",
+      "en": "Phantom Assault",
+      "cn": "幻影奇袭",
+      "cd": "1 Turn",
+      "element": "Physical",
+      "tier": "C",
+      "description": "Lướt chém tầm ngắn 3 ô.",
+      "icon_key": "r1_phantom_assault"
+    },
+    {
+      "id": "r1_edge_strike",
+      "tier_class": "R1",
+      "skill_type": "active",
+      "vn": "Trảm Kích",
+      "en": "Edge Strike",
+      "cn": "斩击",
+      "cd": "0 Turn",
+      "element": "Physical",
+      "tier": "C",
+      "description": "Đòn chém đơn cơ bản 0CD.",
+      "icon_key": "r1_edge_strike"
+    },
+    {
+      "id": "r1_insightful_eye",
+      "tier_class": "R1",
+      "skill_type": "passive",
+      "vn": "Động Sát Tâm Nhãn",
+      "en": "Insightful Eye",
+      "cn": "洞察心眼",
+      "cd": "Charm",
+      "element": "Physical",
+      "tier": "S+",
+      "description": "Tăng mạnh Tỷ lệ Chí mạng (Crit Rate). Bị động cốt lõi bậc 5 sao dùng đến tận R4.",
+      "icon_key": "r1_insightful_eye"
+    },
+    {
+      "id": "r1_block_awareness",
+      "tier_class": "R1",
+      "skill_type": "passive",
+      "vn": "Ý Thức Đỡ Đòn",
+      "en": "Block Awareness",
+      "cn": "格挡意识",
+      "cd": "Charm",
+      "element": "Physical",
+      "tier": "S+",
+      "description": "Tăng mạnh Tỷ lệ Đỡ Đòn (Block) giúp giảm sát thương và chống chí mạng cực tốt khi leo ải.",
+      "icon_key": "r1_block_awareness"
+    },
+    {
+      "id": "r1_blade_of_lament",
+      "tier_class": "R1",
+      "skill_type": "passive",
+      "vn": "Bi Minh Chi Nhận (Hút Máu)",
+      "en": "Blade of Lament",
+      "cn": "悲鸣之刃",
+      "cd": "Charm",
+      "element": "Physical",
+      "tier": "S",
+      "description": "Hồi máu theo sát thương kỹ năng gây ra. Trụ cột duy trì sự sống ở R1-R2.",
+      "icon_key": "r1_blade_of_lament"
+    },
+    {
+      "id": "r1_boiling_blood",
+      "tier_class": "R1",
+      "skill_type": "active",
+      "vn": "Chiến Ý Sôi Trào",
+      "en": "Boiling Bloodlust",
+      "cn": "战意沸腾",
+      "cd": "6 Turn",
+      "element": "Physical",
+      "tier": "A",
+      "description": "Tăng Tỷ lệ Chí mạng và Sát thương Chí mạng trong 4 turn. Hồi chiêu 6 turn.",
+      "icon_key": "r1_boiling_blood"
+    },
+    {
+      "id": "r1_counter_blade",
+      "tier_class": "R1",
+      "skill_type": "passive",
+      "vn": "Phản Kích Chi Kiếm",
+      "en": "Counter Blade",
+      "cn": "反击之剑",
+      "cd": "Charm",
+      "element": "Physical",
+      "tier": "A",
+      "description": "50% xác suất chém phản đòn kẻ địch cận chiến trong tầm 2 ô.",
+      "icon_key": "r1_counter_blade"
+    },
+    {
+      "id": "r1_strength_rules",
+      "tier_class": "R1",
+      "skill_type": "passive",
+      "vn": "Tín Ngưỡng Sức Mạnh",
+      "en": "Strength Rules",
+      "cn": "力量信仰",
+      "cd": "Charm",
+      "element": "Physical",
+      "tier": "B",
+      "description": "Tăng chỉ số Tinh Thông Vật Lý cơ bản.",
+      "icon_key": "r1_strength_rules"
+    },
+    {
+      "id": "r1_blade_tempest",
+      "tier_class": "R1",
+      "skill_type": "passive",
+      "vn": "Kiếm Phong Liệu Nhiễu",
+      "en": "Blade Tempest",
+      "cn": "剑风缭绕",
+      "cd": "Charm",
+      "element": "Wind",
+      "tier": "B",
+      "description": "Xác suất nổ thêm sát thương gió xung quanh khi tung đòn nhiều hit.",
+      "icon_key": "r1_blade_tempest"
+    },
+    {
+      "id": "r1_iron_fortress",
+      "tier_class": "R1",
+      "skill_type": "passive",
+      "vn": "Kim Thang Thiết Bích",
+      "en": "Iron Fortress",
+      "cn": "金汤铁壁",
+      "cd": "Charm",
+      "element": "Physical",
+      "tier": "B",
+      "description": "Tăng Phòng thủ cho toàn bộ đồng đội xung quanh khi đi Phó bản.",
+      "icon_key": "r1_iron_fortress"
+    },
+    {
+      "id": "r1_warrior_ess",
+      "tier_class": "R1",
+      "skill_type": "passive",
+      "vn": "Chiến Đấu Chi Hồn",
+      "en": "Warrior's Essence",
+      "cn": "战斗之魂",
+      "cd": "Charm",
+      "element": "Physical",
+      "tier": "C",
+      "description": "Tăng phần trăm Tấn Công cơ bản.",
+      "icon_key": "r1_warrior_ess"
+    },
+    {
+      "id": "r1_relentless_frenzy",
+      "tier_class": "R1",
+      "skill_type": "passive",
+      "vn": "Tuyệt Ý Cuồng Tiêu",
+      "en": "Relentless Frenzy",
+      "cn": "绝意狂飙",
+      "cd": "Charm",
+      "element": "Physical",
+      "tier": "C",
+      "description": "Tăng Tốc độ sau khi hạ gục mục tiêu.",
+      "icon_key": "r1_relentless_frenzy"
+    },
+    {
+      "id": "r1_pure_protect",
+      "tier_class": "R1",
+      "skill_type": "passive",
+      "vn": "Tịnh Tâm Hộ Giáp",
+      "en": "Pure Protection",
+      "cn": "净心护甲",
+      "cd": "Charm",
+      "element": "Physical",
+      "tier": "C",
+      "description": "Tạo lớp giáp chắn khi máu xuống thấp.",
+      "icon_key": "r1_pure_protect"
+    },
+    {
+      "id": "r1_feline_dance",
+      "tier_class": "R1",
+      "skill_type": "passive",
+      "vn": "Miêu Vũ Bộ",
+      "en": "Feline Dance",
+      "cn": "猫舞步",
+      "cd": "Charm",
+      "element": "Wind",
+      "tier": "C",
+      "description": "Tăng Tốc độ trong một số tình huống đua lượt Đấu Trường.",
+      "icon_key": "r1_feline_dance"
+    },
+    {
+      "id": "r1_crystal_armor",
+      "tier_class": "R1",
+      "skill_type": "passive",
+      "vn": "Hộ Thân Tinh Khải",
+      "en": "Crystal Armor",
+      "cn": "护身晶铠",
+      "cd": "Charm",
+      "element": "Physical",
+      "tier": "C",
+      "description": "Tăng nhẹ Phòng thủ bản thân đầu trận.",
+      "icon_key": "r1_crystal_armor"
+    },
+    {
+      "id": "r1_life_blessing",
+      "tier_class": "R1",
+      "skill_type": "passive",
+      "vn": "Sinh Mệnh Chúc Phúc",
+      "en": "Life Blessing",
+      "cn": "生命祝福",
+      "cd": "Charm",
+      "element": "Light",
+      "tier": "C",
+      "description": "Hồi nhẹ HP mỗi lượt.",
+      "icon_key": "r1_life_blessing"
+    },
+    {
+      "id": "r2_flame_aura",
+      "tier_class": "R2",
+      "skill_type": "active",
+      "vn": "Hỏa Diễm Tùy Thân (Hào Quang Lửa)",
+      "en": "Flame Aura",
+      "cn": "火焰随身",
+      "cd": "1 Turn",
+      "element": "Fire",
+      "tier": "S+",
+      "description": "Kỹ năng 6 sao số 1 của Đấu Sĩ R2: Mỗi đòn đánh kích nổ thêm tia lửa AoE cực rát.",
+      "icon_key": "r2_flame_aura"
+    },
+    {
+      "id": "r2_darkness",
+      "tier_class": "R2",
+      "skill_type": "active",
+      "vn": "Hắc Ám Giáng Lâm",
+      "en": "Darkness Descends",
+      "cn": "黑暗降临",
+      "cd": "1 Turn",
+      "element": "Dark",
+      "tier": "S+",
+      "description": "Nhảy bổ khóa mục tiêu đơn, sát thương cực lớn kèm XÓA BUFF/KHIÊN của Boss và Kỵ Sĩ.",
+      "icon_key": "r2_darkness"
+    },
+    {
+      "id": "r2_flash_dash",
+      "tier_class": "R2",
+      "skill_type": "active",
+      "vn": "Tật Quang Nhất Thiểm (Lướt)",
+      "en": "Flash Dash",
+      "cn": "疾光一闪",
+      "cd": "0 Turn",
+      "element": "Light",
+      "tier": "S",
+      "description": "Lướt xuyên 4 ô 0CD gây sát thương Phá Diệt, tự chỉnh vị trí và kích nổ Hỏa Ấn.",
+      "icon_key": "r2_flash_dash"
+    },
+    {
+      "id": "r2_sunset_sword",
+      "tier_class": "R2",
+      "skill_type": "active",
+      "vn": "Tịch Chiếu Kiếm Vũ",
+      "en": "Sunset Sword",
+      "cn": "夕照剑舞",
+      "cd": "1 Turn",
+      "element": "Light",
+      "tier": "S",
+      "description": "Chém 5 hit AoE (kích 5 lần Hỏa Ấn = 10 hits), hút máu và dọn quái cực nhanh.",
+      "icon_key": "r2_sunset_sword"
+    },
+    {
+      "id": "r2_shatter_sigil",
+      "tier_class": "R2",
+      "skill_type": "active",
+      "vn": "Băng Phá Lạc Ấn",
+      "en": "Shattering Sigil",
+      "cn": "崩破烙印",
+      "cd": "1 Turn",
+      "element": "Physical",
+      "tier": "A",
+      "description": "Khắc ấn lên mục tiêu đơn giúp khuếch đại mạnh sát thương đòn đánh tiếp theo.",
+      "icon_key": "r2_shatter_sigil"
+    },
+    {
+      "id": "r2_fire_slash",
+      "tier_class": "R2",
+      "skill_type": "active",
+      "vn": "Hỏa Diễm Trảm",
+      "en": "Fire Slash",
+      "cn": "火焰斩",
+      "cd": "1 Turn",
+      "element": "Fire",
+      "tier": "B",
+      "description": "Chém lửa AoE kèm sát thương Phá Diệt.",
+      "icon_key": "r2_fire_slash"
+    },
+    {
+      "id": "r2_crit_mastery",
+      "tier_class": "R2",
+      "skill_type": "passive",
+      "vn": "Hội Tâm Tinh Thông",
+      "en": "Crit Mastery",
+      "cn": "会心精通",
+      "cd": "Charm",
+      "element": "Physical",
+      "tier": "S+",
+      "description": "Bị động 6 sao mạnh nhất mọi thời đại của Đấu Sĩ: Tăng cực mạnh Sát thương Chí mạng.",
+      "icon_key": "r2_crit_mastery"
+    },
+    {
+      "id": "r2_indomitable_will",
+      "tier_class": "R2",
+      "skill_type": "passive",
+      "vn": "Bất Khuất Ý Chí (Bất Tử)",
+      "en": "Indomitable Will",
+      "cn": "不屈意志",
+      "cd": "Charm",
+      "element": "Dark",
+      "tier": "S+",
+      "description": "Bảo hiểm sinh mệnh: Chặn sát thương kết liễu, giữ 1 HP bất tử và tự hồi máu lật kèo.",
+      "icon_key": "r2_indomitable_will"
+    },
+    {
+      "id": "r2_blazing_clash",
+      "tier_class": "R2",
+      "skill_type": "passive",
+      "vn": "Cực Tốc Đối Quyết",
+      "en": "Blazing Clash",
+      "cn": "极速对决",
+      "cd": "Charm",
+      "element": "Fire",
+      "tier": "A",
+      "description": "Cộng dồn tầng tăng sát thương mỗi khi tung đòn, rất hợp với Hỏa Diễm Tùy Thân.",
+      "icon_key": "r2_blazing_clash"
+    },
+    {
+      "id": "r2_frame_of_battles",
+      "tier_class": "R2",
+      "skill_type": "passive",
+      "vn": "Bách Chiến Chi Khu",
+      "en": "Frame of Battles",
+      "cn": "百战之躯",
+      "cd": "Charm",
+      "element": "Physical",
+      "tier": "A",
+      "description": "Giảm sát thương nhận vào khi máu thấp, phối hợp tốt với Ý Thức Đỡ Đòn.",
+      "icon_key": "r2_frame_of_battles"
+    },
+    {
+      "id": "r2_pot_vitality",
+      "tier_class": "R2",
+      "skill_type": "passive",
+      "vn": "Tiềm Năng Sinh Mệnh",
+      "en": "Potential Vitality",
+      "cn": "生命潜能",
+      "cd": "Charm",
+      "element": "Light",
+      "tier": "C",
+      "description": "Tăng nhẹ hiệu quả hồi máu nhận được.",
+      "icon_key": "r2_pot_vitality"
+    },
+    {
+      "id": "r3_ruling_blade",
+      "tier_class": "R3",
+      "skill_type": "passive",
+      "vn": "Phán Quyết Chi Nhận (Trấn Phái R3)",
+      "en": "Blade of Judgment",
+      "cn": "裁决之刃",
+      "cd": "Charm",
+      "element": "Physical",
+      "tier": "S+",
+      "description": "Trấn phái Liên Kích R3 (Ưu tiên số 1 đổi Skill Shard Voucher ở Lv.82): Đánh đủ 10 hit nổ sát thương khổng lồ.",
+      "icon_key": "r3_ruling_blade"
+    },
+    {
+      "id": "r3_eclipse_slash",
+      "tier_class": "R3",
+      "skill_type": "active",
+      "vn": "Nhật Thực Liên Trảm",
+      "en": "Eclipse Slash",
+      "cn": "日蚀连斩",
+      "cd": "1 Turn",
+      "element": "Dark",
+      "tier": "S+",
+      "description": "Chém khóa đầu 6 đoạn liên hoàn, nhát cuối nổ gấp 5 lần sát thương.",
+      "icon_key": "r3_eclipse_slash"
+    },
+    {
+      "id": "r3_frenzy_leech",
+      "tier_class": "R3",
+      "skill_type": "passive",
+      "vn": "Cuồng Nhận Hấp Thụ",
+      "en": "Blade Siphon",
+      "cn": "狂刃汲取",
+      "cd": "Charm",
+      "element": "Physical",
+      "tier": "S+",
+      "description": "Bị động hồi máu thượng hạng R3 (thay thế Bi Minh Chi Nhận): Mỗi hit Chí mạng đều hồi máu.",
+      "icon_key": "r3_frenzy_leech"
+    },
+    {
+      "id": "r3_annihilate_edge",
+      "tier_class": "R3",
+      "skill_type": "active",
+      "vn": "Diệt Tuyệt Phong Nhận",
+      "en": "Doom Blade",
+      "cn": "灭却锋刃",
+      "cd": "1 Turn",
+      "element": "Dark",
+      "tier": "S",
+      "description": "Bản nâng cấp toàn diện của Nhảy Bổ: Tầm nhảy xa hơn, AoE rộng hơn kèm Phá Giáp.",
+      "icon_key": "r3_annihilate_edge"
+    },
+    {
+      "id": "r3_soul_burn_guard",
+      "tier_class": "R3",
+      "skill_type": "passive",
+      "vn": "Nhiên Hồn Thủ Hộ",
+      "en": "Soulfire Protection",
+      "cn": "燃魂守护",
+      "cd": "Charm",
+      "element": "Fire",
+      "tier": "S",
+      "description": "Đầu trận hiến tế nửa cây máu để nhận lượng Giảm Sát Thương khổng lồ.",
+      "icon_key": "r3_soul_burn_guard"
+    },
+    {
+      "id": "r3_soul_splash",
+      "tier_class": "R3",
+      "skill_type": "passive",
+      "vn": "Linh Hồn Tiễn Xạ",
+      "en": "Soul Splash",
+      "cn": "灵魂溅射",
+      "cd": "Charm",
+      "element": "Fire",
+      "tier": "A",
+      "description": "Tăng sát thương kỹ năng đơn đòn và nổ lan sát thương Hỏa khi kết liễu quái.",
+      "icon_key": "r3_soul_splash"
+    },
+    {
+      "id": "r3_shura_hand",
+      "tier_class": "R3",
+      "skill_type": "active",
+      "vn": "Tu La Chi Thủ",
+      "en": "Asura's Grasp",
+      "cn": "修罗之手",
+      "cd": "1 Turn",
+      "element": "Dark",
+      "tier": "A",
+      "description": "Cường hóa kỹ năng kế tiếp tăng mạnh sát thương và biến thành sát thương Phá Diệt (x2 lên Khiên).",
+      "icon_key": "r3_shura_hand"
+    },
+    {
+      "id": "r4_flowing_fire_dance",
+      "tier_class": "R4",
+      "skill_type": "active",
+      "vn": "Lưu Nhận Hỏa Vũ (Trấn Phái R4)",
+      "en": "Flickering Blade",
+      "cn": "流刃火舞",
+      "cd": "0 Turn",
+      "element": "Fire",
+      "tier": "S+",
+      "description": "Siêu kỹ năng 0CD đa đòn hệ Hỏa ở R4, xác suất tự tung liên hoàn nhiều lần.",
+      "icon_key": "r4_flowing_fire_dance"
+    },
+    {
+      "id": "r4_assault_armor_break",
+      "tier_class": "R4",
+      "skill_type": "passive",
+      "vn": "Cường Tập Phá Giáp (Trấn Phái R4)",
+      "en": "Piercing Assault",
+      "cn": "强袭破甲",
+      "cd": "Charm",
+      "element": "Physical",
+      "tier": "S+",
+      "description": "Giúp các kỹ năng chủ động bỏ qua một lượng lớn Phòng thủ của mục tiêu.",
+      "icon_key": "r4_assault_armor_break"
+    },
+    {
+      "id": "r4_tactical_adapt",
+      "tier_class": "R4",
+      "skill_type": "passive",
+      "vn": "Chiến Thuật Ứng Biến",
+      "en": "Tactical Adaptation",
+      "cn": "战术应变",
+      "cd": "Charm",
+      "element": "Physical",
+      "tier": "S",
+      "description": "Tự động tăng sát thương khi ít kẻ địch (Boss) và tăng giảm thương khi đông quái.",
+      "icon_key": "r4_tactical_adapt"
+    }
+  ],
+  "companions": [
+    {
+      "id": "qin",
+      "name": "Qin",
+      "gift_type": "Practical gifts",
+      "stats": "SPD% + DMG Boost% + Crit Rate%",
+      "sort_order": 0
+    },
+    {
+      "id": "akane",
+      "name": "Akane",
+      "gift_type": "Flowers",
+      "stats": "ATK% + DMG Boost% + Accuracy% (6 Bond Trinkets)",
+      "sort_order": 1
+    },
+    {
+      "id": "hermes",
+      "name": "Hermes",
+      "gift_type": "Precious gifts",
+      "stats": "ATK% + DMG Boost% + Accuracy%",
+      "sort_order": 2
+    },
+    {
+      "id": "killian",
+      "name": "Killian",
+      "gift_type": "Books",
+      "stats": "HP% + DMG RES% + Crit RES%",
+      "sort_order": 3
+    },
+    {
+      "id": "village_chief",
+      "name": "Chief",
+      "gift_type": "Practical gifts",
+      "stats": "HP% + DMG RES%",
+      "sort_order": 4
+    },
+    {
+      "id": "luther",
+      "name": "Luther",
+      "gift_type": "Flowers",
+      "stats": "Sorcerer",
+      "sort_order": 100,
+      "icon_key": "player_avatar"
+    },
+    {
+      "id": "mateo",
+      "name": "Mateo",
+      "gift_type": "Books",
+      "stats": "Sorcerer",
+      "sort_order": 101,
+      "icon_key": "player_avatar"
+    },
+    {
+      "id": "mio",
+      "name": "Mio",
+      "gift_type": "Books",
+      "stats": "Sorcerer",
+      "sort_order": 102,
+      "icon_key": "player_avatar"
+    },
+    {
+      "id": "sylvia",
+      "name": "Sylvia",
+      "gift_type": "Precious gifts",
+      "stats": "Sorcerer",
+      "sort_order": 103,
+      "icon_key": "player_avatar"
+    },
+    {
+      "id": "carol",
+      "name": "Carol",
+      "gift_type": "Books",
+      "stats": "Sorcerer",
+      "sort_order": 104,
+      "icon_key": "player_avatar"
+    },
+    {
+      "id": "jiangwang",
+      "name": "Jiangwang",
+      "gift_type": "Practical gifts",
+      "stats": "Sorcerer",
+      "sort_order": 105,
+      "icon_key": "player_avatar"
+    },
+    {
+      "id": "megumin",
+      "name": "Megumin",
+      "gift_type": "Books",
+      "stats": "Sorcerer",
+      "sort_order": 106,
+      "icon_key": "player_avatar"
+    },
+    {
+      "id": "naza",
+      "name": "Naza",
+      "gift_type": "Practical gifts",
+      "stats": "Sorcerer",
+      "sort_order": 107,
+      "icon_key": "player_avatar"
+    },
+    {
+      "id": "ophelia",
+      "name": "Ophelia",
+      "gift_type": "Books",
+      "stats": "Sorcerer",
+      "sort_order": 108,
+      "icon_key": "player_avatar"
+    },
+    {
+      "id": "thirteen",
+      "name": "Thirteen",
+      "gift_type": "Books",
+      "stats": "Sorcerer",
+      "sort_order": 109,
+      "icon_key": "player_avatar"
+    },
+    {
+      "id": "wuxian",
+      "name": "Wuxian",
+      "gift_type": "Books",
+      "stats": "Sorcerer",
+      "sort_order": 110,
+      "icon_key": "player_avatar"
+    },
+    {
+      "id": "yan_he",
+      "name": "Yan He",
+      "gift_type": "Books",
+      "stats": "Sorcerer",
+      "sort_order": 111,
+      "icon_key": "player_avatar"
+    },
+    {
+      "id": "zeus",
+      "name": "Zeus",
+      "gift_type": "Precious gifts",
+      "stats": "Sorcerer",
+      "sort_order": 112,
+      "icon_key": "player_avatar"
+    },
+    {
+      "id": "freya",
+      "name": "Freya",
+      "gift_type": "Practical gifts",
+      "stats": "Duelist",
+      "sort_order": 113,
+      "icon_key": "player_avatar"
+    },
+    {
+      "id": "ming",
+      "name": "Ming",
+      "gift_type": "Flowers",
+      "stats": "Duelist",
+      "sort_order": 114,
+      "icon_key": "player_avatar"
+    },
+    {
+      "id": "naira",
+      "name": "Naira",
+      "gift_type": "Flowers",
+      "stats": "Duelist",
+      "sort_order": 115,
+      "icon_key": "player_avatar"
+    },
+    {
+      "id": "reina",
+      "name": "Reina",
+      "gift_type": "Flowers",
+      "stats": "Duelist",
+      "sort_order": 116,
+      "icon_key": "player_avatar"
+    },
+    {
+      "id": "derrick",
+      "name": "Derrick",
+      "gift_type": "Precious gifts",
+      "stats": "Duelist",
+      "sort_order": 117,
+      "icon_key": "player_avatar"
+    },
+    {
+      "id": "eiichi",
+      "name": "Eiichi",
+      "gift_type": "Precious gifts",
+      "stats": "Duelist",
+      "sort_order": 118,
+      "icon_key": "player_avatar"
+    },
+    {
+      "id": "karlos",
+      "name": "Karlos",
+      "gift_type": "Practical gifts",
+      "stats": "Duelist",
+      "sort_order": 119,
+      "icon_key": "player_avatar"
+    },
+    {
+      "id": "kazuma",
+      "name": "Kazuma",
+      "gift_type": "Practical gifts",
+      "stats": "Duelist",
+      "sort_order": 120,
+      "icon_key": "player_avatar"
+    },
+    {
+      "id": "luo_xiao_hei",
+      "name": "Luo Xiao-Hei",
+      "gift_type": "Flowers",
+      "stats": "Duelist",
+      "sort_order": 121,
+      "icon_key": "player_avatar"
+    },
+    {
+      "id": "luye",
+      "name": "Luye",
+      "gift_type": "Books",
+      "stats": "Duelist",
+      "sort_order": 122,
+      "icon_key": "player_avatar"
+    },
+    {
+      "id": "mayoi",
+      "name": "Mayoi",
+      "gift_type": "Practical gifts",
+      "stats": "Duelist",
+      "sort_order": 123,
+      "icon_key": "player_avatar"
+    },
+    {
+      "id": "mynn",
+      "name": "Mynn",
+      "gift_type": "Flowers",
+      "stats": "Duelist",
+      "sort_order": 124,
+      "icon_key": "player_avatar"
+    },
+    {
+      "id": "pera",
+      "name": "Pera",
+      "gift_type": "Precious gifts",
+      "stats": "Duelist",
+      "sort_order": 125,
+      "icon_key": "player_avatar"
+    },
+    {
+      "id": "seven",
+      "name": "Seven",
+      "gift_type": "Flowers",
+      "stats": "Duelist",
+      "sort_order": 126,
+      "icon_key": "player_avatar"
+    },
+    {
+      "id": "wuji",
+      "name": "Wuji",
+      "gift_type": "Books",
+      "stats": "Duelist",
+      "sort_order": 127,
+      "icon_key": "player_avatar"
+    },
+    {
+      "id": "yao",
+      "name": "Yao",
+      "gift_type": "Flowers",
+      "stats": "Duelist",
+      "sort_order": 128,
+      "icon_key": "player_avatar"
+    },
+    {
+      "id": "molly",
+      "name": "Molly",
+      "gift_type": "Precious gifts",
+      "stats": "Knight",
+      "sort_order": 129,
+      "icon_key": "player_avatar"
+    },
+    {
+      "id": "vigard",
+      "name": "Vigard",
+      "gift_type": "Books",
+      "stats": "Knight",
+      "sort_order": 130,
+      "icon_key": "player_avatar"
+    },
+    {
+      "id": "belric",
+      "name": "Belric",
+      "gift_type": "Books",
+      "stats": "Knight",
+      "sort_order": 131,
+      "icon_key": "player_avatar"
+    },
+    {
+      "id": "braulio",
+      "name": "Braulio",
+      "gift_type": "Precious gifts",
+      "stats": "Knight",
+      "sort_order": 132,
+      "icon_key": "player_avatar"
+    },
+    {
+      "id": "da_chun",
+      "name": "Da Chun",
+      "gift_type": "Practical gifts",
+      "stats": "Knight",
+      "sort_order": 133,
+      "icon_key": "player_avatar"
+    },
+    {
+      "id": "darkness",
+      "name": "Darkness",
+      "gift_type": "Practical gifts",
+      "stats": "Knight",
+      "sort_order": 134,
+      "icon_key": "player_avatar"
+    },
+    {
+      "id": "gerald",
+      "name": "Gerald",
+      "gift_type": "Practical gifts",
+      "stats": "Knight",
+      "sort_order": 135,
+      "icon_key": "player_avatar"
+    },
+    {
+      "id": "hui",
+      "name": "Hui",
+      "gift_type": "Practical gifts",
+      "stats": "Knight",
+      "sort_order": 136,
+      "icon_key": "player_avatar"
+    },
+    {
+      "id": "juubee",
+      "name": "Juubee",
+      "gift_type": "Flowers",
+      "stats": "Knight",
+      "sort_order": 137,
+      "icon_key": "player_avatar"
+    },
+    {
+      "id": "micaela",
+      "name": "Micaela",
+      "gift_type": "Precious gifts",
+      "stats": "Knight",
+      "sort_order": 138,
+      "icon_key": "player_avatar"
+    },
+    {
+      "id": "riven",
+      "name": "Riven",
+      "gift_type": "Practical gifts",
+      "stats": "Knight",
+      "sort_order": 139,
+      "icon_key": "player_avatar"
+    },
+    {
+      "id": "alice",
+      "name": "Alice",
+      "gift_type": "Flowers",
+      "stats": "Sage",
+      "sort_order": 140,
+      "icon_key": "player_avatar"
+    },
+    {
+      "id": "lillie",
+      "name": "Lillie",
+      "gift_type": "Precious gifts",
+      "stats": "Sage",
+      "sort_order": 141,
+      "icon_key": "player_avatar"
+    },
+    {
+      "id": "mysterious_merchant",
+      "name": "Mysterious Merchant",
+      "gift_type": "Flowers",
+      "stats": "Sage",
+      "sort_order": 142,
+      "icon_key": "player_avatar"
+    },
+    {
+      "id": "suimo",
+      "name": "Suimo",
+      "gift_type": "Books",
+      "stats": "Sage",
+      "sort_order": 143,
+      "icon_key": "player_avatar"
+    },
+    {
+      "id": "suzu",
+      "name": "Suzu",
+      "gift_type": "Precious gifts",
+      "stats": "Sage",
+      "sort_order": 144,
+      "icon_key": "player_avatar"
+    },
+    {
+      "id": "aqua",
+      "name": "Aqua",
+      "gift_type": "Precious gifts",
+      "stats": "Sage",
+      "sort_order": 145,
+      "icon_key": "player_avatar"
+    },
+    {
+      "id": "astrid",
+      "name": "Astrid",
+      "gift_type": "Flowers",
+      "stats": "Sage",
+      "sort_order": 146,
+      "icon_key": "player_avatar"
+    },
+    {
+      "id": "dai_bo",
+      "name": "Dai Bo",
+      "gift_type": "Books",
+      "stats": "Sage",
+      "sort_order": 147,
+      "icon_key": "player_avatar"
+    },
+    {
+      "id": "dora",
+      "name": "Dora",
+      "gift_type": "Precious gifts",
+      "stats": "Sage",
+      "sort_order": 148,
+      "icon_key": "player_avatar"
+    },
+    {
+      "id": "isla",
+      "name": "Isla",
+      "gift_type": "Flowers",
+      "stats": "Sage",
+      "sort_order": 149,
+      "icon_key": "player_avatar"
+    },
+    {
+      "id": "luo_tianyi",
+      "name": "Luo Tianyi",
+      "gift_type": "Practical gifts",
+      "stats": "Sage",
+      "sort_order": 150,
+      "icon_key": "player_avatar"
+    },
+    {
+      "id": "rex",
+      "name": "Rex",
+      "gift_type": "Books",
+      "stats": "Sage",
+      "sort_order": 151,
+      "icon_key": "player_avatar"
+    }
+  ],
+  "assets": [
+    {
+      "key": "duelist_hero",
+      "category": "ui",
+      "label": "Duelist",
+      "default_path": "/assets/duelist_hero.png"
+    },
+    {
+      "key": "eq_armor",
+      "category": "gear",
+      "label": "Armor",
+      "default_path": "/assets/eq_armor.png"
+    },
+    {
+      "key": "eq_boots",
+      "category": "gear",
+      "label": "Boots",
+      "default_path": "/assets/eq_boots.png"
+    },
+    {
+      "key": "eq_helmet",
+      "category": "gear",
+      "label": "Helmet",
+      "default_path": "/assets/eq_helmet.png"
+    },
+    {
+      "key": "eq_subWeapon",
+      "category": "gear",
+      "label": "Sub Weapon",
+      "default_path": "/assets/eq_subWeapon.png"
+    },
+    {
+      "key": "eq_weapon",
+      "category": "gear",
+      "label": "Main Weapon",
+      "default_path": "/assets/eq_weapon.png"
+    },
+    {
+      "key": "item_battle_essence",
+      "category": "item",
+      "label": "Battle Essence",
+      "default_path": "/assets/item_battle_essence.png"
+    },
+    {
+      "key": "item_colored_diamond",
+      "category": "item",
+      "label": "Luminium",
+      "default_path": "/assets/item_colored_diamond.png"
+    },
+    {
+      "key": "item_enhance_stone",
+      "category": "item",
+      "label": "Raw Ore",
+      "default_path": "/assets/item_enhance_stone.png"
+    },
+    {
+      "key": "item_gold",
+      "category": "item",
+      "label": "Rolla",
+      "default_path": "/assets/item_gold.png"
+    },
+    {
+      "key": "item_morning_star",
+      "category": "item",
+      "label": "Dawnium",
+      "default_path": "/assets/item_morning_star.png"
+    },
+    {
+      "key": "item_normal_ticket",
+      "category": "item",
+      "label": "Stellatie",
+      "default_path": "/assets/item_normal_ticket.png"
+    },
+    {
+      "key": "item_relic_blue",
+      "category": "item",
+      "label": "Rare Relic",
+      "default_path": "/assets/item_relic_blue.png"
+    },
+    {
+      "key": "item_relic_purple",
+      "category": "item",
+      "label": "Epic Relic",
+      "default_path": "/assets/item_relic_purple.png"
+    },
+    {
+      "key": "item_skill_chest",
+      "category": "item",
+      "label": "Skill Shard Voucher",
+      "default_path": "/assets/item_skill_chest.png"
+    },
+    {
+      "key": "item_stone",
+      "category": "item",
+      "label": "Stone",
+      "default_path": "/assets/item_stone.png"
+    },
+    {
+      "key": "item_wood",
+      "category": "item",
+      "label": "Wood",
+      "default_path": "/assets/item_wood.png"
+    },
+    {
+      "key": "pet_aegiswing",
+      "category": "pet",
+      "label": "Aegiswing",
+      "default_path": "/assets/pet_aegiswing.png"
+    },
+    {
+      "key": "pet_nyxarchon",
+      "category": "pet",
+      "label": "Nyxarchon",
+      "default_path": "/assets/pet_nyxarchon.png"
+    },
+    {
+      "key": "pet_pandarial",
+      "category": "pet",
+      "label": "Pandarial",
+      "default_path": "/assets/pet_pandarial.png"
+    },
+    {
+      "key": "player_avatar",
+      "category": "ui",
+      "label": "Avatar",
+      "default_path": "/assets/player_avatar.png"
+    },
+    {
+      "key": "r1_blade_of_lament",
+      "category": "skill",
+      "label": "Blade of Lament",
+      "default_path": "/assets/r1_blade_of_lament.png"
+    },
+    {
+      "key": "r1_blade_tempest",
+      "category": "skill",
+      "label": "Blade Tempest",
+      "default_path": "/assets/r1_blade_tempest.png"
+    },
+    {
+      "key": "r1_block_awareness",
+      "category": "skill",
+      "label": "Block Awareness",
+      "default_path": "/assets/r1_block_awareness.png"
+    },
+    {
+      "key": "r1_boiling_blood",
+      "category": "skill",
+      "label": "Boiling Bloodlust",
+      "default_path": "/assets/r1_boiling_blood.png"
+    },
+    {
+      "key": "r1_counter_blade",
+      "category": "skill",
+      "label": "Counter Blade",
+      "default_path": "/assets/r1_counter_blade.png"
+    },
+    {
+      "key": "r1_crystal_armor",
+      "category": "skill",
+      "label": "Crystal Armor",
+      "default_path": "/assets/r1_crystal_armor.png"
+    },
+    {
+      "key": "r1_diving_gale",
+      "category": "skill",
+      "label": "Diving Gale",
+      "default_path": "/assets/r1_diving_gale.png"
+    },
+    {
+      "key": "r1_edge_strike",
+      "category": "skill",
+      "label": "Edge Strike",
+      "default_path": "/assets/r1_edge_strike.png"
+    },
+    {
+      "key": "r1_feline_dance",
+      "category": "skill",
+      "label": "Feline Dance",
+      "default_path": "/assets/r1_feline_dance.png"
+    },
+    {
+      "key": "r1_gravity_pull",
+      "category": "skill",
+      "label": "Gravity Pull",
+      "default_path": "/assets/r1_gravity_pull.png"
+    },
+    {
+      "key": "r1_heavy_impact",
+      "category": "skill",
+      "label": "Heavy Impact",
+      "default_path": "/assets/r1_heavy_impact.png"
+    },
+    {
+      "key": "r1_insightful_eye",
+      "category": "skill",
+      "label": "Insightful Eye",
+      "default_path": "/assets/r1_insightful_eye.png"
+    },
+    {
+      "key": "r1_iron_fortress",
+      "category": "skill",
+      "label": "Iron Fortress",
+      "default_path": "/assets/r1_iron_fortress.png"
+    },
+    {
+      "key": "r1_leap_attack",
+      "category": "skill",
+      "label": "Leap Attack",
+      "default_path": "/assets/r1_leap_attack.png"
+    },
+    {
+      "key": "r1_life_blessing",
+      "category": "skill",
+      "label": "Life Blessing",
+      "default_path": "/assets/r1_life_blessing.png"
+    },
+    {
+      "key": "r1_lion_combo",
+      "category": "skill",
+      "label": "Lion Combo",
+      "default_path": "/assets/r1_lion_combo.png"
+    },
+    {
+      "key": "r1_luminous_shield",
+      "category": "skill",
+      "label": "Luminous Shield",
+      "default_path": "/assets/r1_luminous_shield.png"
+    },
+    {
+      "key": "r1_mountain_collapse",
+      "category": "skill",
+      "label": "Mountain Collapse",
+      "default_path": "/assets/r1_mountain_collapse.png"
+    },
+    {
+      "key": "r1_phantom_assault",
+      "category": "skill",
+      "label": "Phantom Assault",
+      "default_path": "/assets/r1_phantom_assault.png"
+    },
+    {
+      "key": "r1_pure_protect",
+      "category": "skill",
+      "label": "Pure Protection",
+      "default_path": "/assets/r1_pure_protect.png"
+    },
+    {
+      "key": "r1_quadrant_slash",
+      "category": "skill",
+      "label": "Quadrant Slash",
+      "default_path": "/assets/r1_quadrant_slash.png"
+    },
+    {
+      "key": "r1_relentless_frenzy",
+      "category": "skill",
+      "label": "Relentless Frenzy",
+      "default_path": "/assets/r1_relentless_frenzy.png"
+    },
+    {
+      "key": "r1_strength_rules",
+      "category": "skill",
+      "label": "Strength Rules",
+      "default_path": "/assets/r1_strength_rules.png"
+    },
+    {
+      "key": "r1_warrior_ess",
+      "category": "skill",
+      "label": "Warrior's Essence",
+      "default_path": "/assets/r1_warrior_ess.png"
+    },
+    {
+      "key": "r1_whirlwind",
+      "category": "skill",
+      "label": "Whirlwind Slash",
+      "default_path": "/assets/r1_whirlwind.png"
+    },
+    {
+      "key": "r1_wind_blade",
+      "category": "skill",
+      "label": "Wind Blade Slash",
+      "default_path": "/assets/r1_wind_blade.png"
+    },
+    {
+      "key": "r2_blazing_clash",
+      "category": "skill",
+      "label": "Blazing Clash",
+      "default_path": "/assets/r2_blazing_clash.png"
+    },
+    {
+      "key": "r2_crit_mastery",
+      "category": "skill",
+      "label": "Crit Mastery",
+      "default_path": "/assets/r2_crit_mastery.png"
+    },
+    {
+      "key": "r2_darkness",
+      "category": "skill",
+      "label": "Darkness Descends",
+      "default_path": "/assets/r2_darkness.png"
+    },
+    {
+      "key": "r2_fire_slash",
+      "category": "skill",
+      "label": "Fire Slash",
+      "default_path": "/assets/r2_fire_slash.png"
+    },
+    {
+      "key": "r2_flame_aura",
+      "category": "skill",
+      "label": "Flame Aura",
+      "default_path": "/assets/r2_flame_aura.png"
+    },
+    {
+      "key": "r2_flash_dash",
+      "category": "skill",
+      "label": "Flash Dash",
+      "default_path": "/assets/r2_flash_dash.png"
+    },
+    {
+      "key": "r2_frame_of_battles",
+      "category": "skill",
+      "label": "Frame of Battles",
+      "default_path": "/assets/r2_frame_of_battles.png"
+    },
+    {
+      "key": "r2_indomitable_will",
+      "category": "skill",
+      "label": "Indomitable Will",
+      "default_path": "/assets/r2_indomitable_will.png"
+    },
+    {
+      "key": "r2_pot_vitality",
+      "category": "skill",
+      "label": "Potential Vitality",
+      "default_path": "/assets/r2_pot_vitality.png"
+    },
+    {
+      "key": "r2_shatter_sigil",
+      "category": "skill",
+      "label": "Shattering Sigil",
+      "default_path": "/assets/r2_shatter_sigil.png"
+    },
+    {
+      "key": "r2_sunset_sword",
+      "category": "skill",
+      "label": "Sunset Sword",
+      "default_path": "/assets/r2_sunset_sword.png"
+    },
+    {
+      "key": "r3_annihilate_edge",
+      "category": "skill",
+      "label": "Doom Blade",
+      "default_path": "/assets/r3_annihilate_edge.png"
+    },
+    {
+      "key": "r3_eclipse_slash",
+      "category": "skill",
+      "label": "Eclipse Slash",
+      "default_path": "/assets/r3_eclipse_slash.png"
+    },
+    {
+      "key": "r3_frenzy_leech",
+      "category": "skill",
+      "label": "Blade Siphon",
+      "default_path": "/assets/r3_frenzy_leech.png"
+    },
+    {
+      "key": "r3_ruling_blade",
+      "category": "skill",
+      "label": "Blade of Judgment",
+      "default_path": "/assets/r3_ruling_blade.png"
+    },
+    {
+      "key": "r3_shura_hand",
+      "category": "skill",
+      "label": "Asura's Grasp",
+      "default_path": "/assets/r3_shura_hand.png"
+    },
+    {
+      "key": "r3_soul_burn_guard",
+      "category": "skill",
+      "label": "Soulfire Protection",
+      "default_path": "/assets/r3_soul_burn_guard.png"
+    },
+    {
+      "key": "r3_soul_splash",
+      "category": "skill",
+      "label": "Soul Splash",
+      "default_path": "/assets/r3_soul_splash.png"
+    },
+    {
+      "key": "r4_assault_armor_break",
+      "category": "skill",
+      "label": "Piercing Assault",
+      "default_path": "/assets/r4_assault_armor_break.png"
+    },
+    {
+      "key": "r4_flowing_fire_dance",
+      "category": "skill",
+      "label": "Flickering Blade",
+      "default_path": "/assets/r4_flowing_fire_dance.png"
+    },
+    {
+      "key": "r4_tactical_adapt",
+      "category": "skill",
+      "label": "Tactical Adaptation",
+      "default_path": "/assets/r4_tactical_adapt.png"
+    }
+  ],
+  "fantomons": [
+    {
+      "id": "pet_aegiswing",
+      "name": "Aegiswing",
+      "role": "Rainbow · Guardian Angel, then heal and Power Unsealed",
+      "icon_key": "pet_aegiswing"
+    },
+    {
+      "id": "pet_nyxarchon",
+      "name": "Nyxarchon",
+      "role": "Rainbow · Dark hit and DEF reduction stacks",
+      "icon_key": "pet_nyxarchon"
+    },
+    {
+      "id": "pet_pandarial",
+      "name": "Pandarial",
+      "role": "Rainbow · Cuts 1 turn of Technique CD, then heals",
+      "icon_key": "pet_pandarial"
+    },
+    {
+      "id": "pet_armopi",
+      "name": "Armopi",
+      "role": "SSR · DEF stacks that turn into a shield",
+      "icon_key": "player_avatar"
+    },
+    {
+      "id": "pet_herbote",
+      "name": "Herbote",
+      "role": "SSR · Heal and cleanse",
+      "icon_key": "player_avatar"
+    },
+    {
+      "id": "pet_kels",
+      "name": "Kels",
+      "role": "SSR · Water hit and dispel",
+      "icon_key": "player_avatar"
+    },
+    {
+      "id": "pet_sylvaerie",
+      "name": "Sylvaerie",
+      "role": "SSR · ATK and SPD after each turn",
+      "icon_key": "player_avatar"
+    },
+    {
+      "id": "pet_terragon",
+      "name": "Terragon",
+      "role": "SSR · Physical hit and ATK down",
+      "icon_key": "player_avatar"
+    },
+    {
+      "id": "pet_zeioletus",
+      "name": "Zeioletus",
+      "role": "SSR · Light hit that knocks enemies airborne",
+      "icon_key": "player_avatar"
+    },
+    {
+      "id": "pet_boaro",
+      "name": "Boaro",
+      "role": "SR · Shield when HP drops",
+      "icon_key": "player_avatar"
+    },
+    {
+      "id": "pet_chomusuke",
+      "name": "Chomusuke",
+      "role": "SR · Extra attack after a Technique",
+      "icon_key": "player_avatar"
+    },
+    {
+      "id": "pet_falko",
+      "name": "Falko",
+      "role": "SR · Physical damage around the target",
+      "icon_key": "player_avatar"
+    },
+    {
+      "id": "pet_mandragora",
+      "name": "Mandragora",
+      "role": "SR · Heals an ally after a Technique",
+      "icon_key": "player_avatar"
+    }
+  ]
+}

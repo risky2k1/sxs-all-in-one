@@ -1,0 +1,350 @@
+{
+  "profile": {
+    "playerName": "Aquariuss",
+    "serverDay": 4,
+    "level": 44,
+    "combatPower": "68.5K",
+    "currentClass": "Duelist",
+    "rankTier": "Elite I",
+    "totalJobLevel": 20,
+    "warriorJobLevel": 18,
+    "mageJobLevel": 2,
+    "duelistJobLevel": 5,
+    "currentMap": "Cinder Ridge",
+    "mirageTower": "F85",
+    "dailyDungeonStatus": "Used 2/2 free runs",
+    "spendingTier": "Light spend / monthly card"
+  },
+  "equipment": {
+    "weapon": {
+      "name": "Main Weapon",
+      "iconKey": "eq_weapon",
+      "level": 38,
+      "quality": "Legendary",
+      "notes": "Priority 1"
+    },
+    "subWeapon": {
+      "name": "Sub Weapon",
+      "iconKey": "eq_subWeapon",
+      "level": 35,
+      "quality": "Epic",
+      "notes": "Caught up to the resonance tier"
+    },
+    "helmet": {
+      "name": "Helmet",
+      "iconKey": "eq_helmet",
+      "level": 35,
+      "quality": "Legendary",
+      "notes": "Balanced at +35"
+    },
+    "armor": {
+      "name": "Armor",
+      "iconKey": "eq_armor",
+      "level": 35,
+      "quality": "Legendary",
+      "notes": "Balanced at +35"
+    },
+    "boots": {
+      "name": "Boots",
+      "iconKey": "eq_boots",
+      "level": 35,
+      "quality": "Legendary",
+      "notes": "Balanced at +35"
+    }
+  },
+  "skillSlotsLevel": [
+    {
+      "slot": 1,
+      "type": "Technique",
+      "level": 36
+    },
+    {
+      "slot": 2,
+      "type": "Technique",
+      "level": 36
+    },
+    {
+      "slot": 3,
+      "type": "Technique",
+      "level": 36
+    },
+    {
+      "slot": 4,
+      "type": "Technique",
+      "level": 36
+    },
+    {
+      "slot": 5,
+      "type": "Charm",
+      "level": 35
+    },
+    {
+      "slot": 6,
+      "type": "Charm",
+      "level": 35
+    },
+    {
+      "slot": 7,
+      "type": "Charm",
+      "level": 35
+    },
+    {
+      "slot": 8,
+      "type": "Charm",
+      "level": 35
+    }
+  ],
+  "skills": {
+    "r2_flame_aura": {
+      "owned": true,
+      "quality": "Legendary",
+      "stars": 1,
+      "equippedSlot": 1
+    },
+    "r1_whirlwind": {
+      "owned": true,
+      "quality": "Legendary",
+      "stars": 1,
+      "equippedSlot": 2
+    },
+    "r2_sunset_sword": {
+      "owned": true,
+      "quality": "Epic",
+      "stars": 1,
+      "equippedSlot": 3
+    },
+    "r2_flash_dash": {
+      "owned": true,
+      "quality": "Epic",
+      "stars": 1,
+      "equippedSlot": 4
+    },
+    "r1_heavy_impact": {
+      "owned": true,
+      "quality": "Legendary",
+      "stars": 1,
+      "equippedSlot": 0
+    },
+    "r1_wind_blade": {
+      "owned": true,
+      "quality": "Legendary",
+      "stars": 1,
+      "equippedSlot": 0
+    },
+    "r1_mountain_collapse": {
+      "owned": true,
+      "quality": "Legendary",
+      "stars": 1,
+      "equippedSlot": 0
+    },
+    "r1_quadrant_slash": {
+      "owned": true,
+      "quality": "Legendary",
+      "stars": 1,
+      "equippedSlot": 0
+    },
+    "r1_luminous_shield": {
+      "owned": true,
+      "quality": "Epic",
+      "stars": 2,
+      "equippedSlot": 0
+    },
+    "r1_diving_gale": {
+      "owned": true,
+      "quality": "Epic",
+      "stars": 2,
+      "equippedSlot": 0
+    },
+    "r1_boiling_blood": {
+      "owned": true,
+      "quality": "Epic",
+      "stars": 2,
+      "equippedSlot": 0
+    },
+    "r1_leap_attack": {
+      "owned": true,
+      "quality": "Epic",
+      "stars": 2,
+      "equippedSlot": 0
+    },
+    "r1_gravity_pull": {
+      "owned": true,
+      "quality": "Epic",
+      "stars": 1,
+      "equippedSlot": 0
+    },
+    "r1_phantom_assault": {
+      "owned": true,
+      "quality": "Epic",
+      "stars": 1,
+      "equippedSlot": 0
+    },
+    "r2_darkness": {
+      "owned": true,
+      "quality": "Legendary",
+      "stars": 1,
+      "equippedSlot": 0
+    },
+    "r1_block_awareness": {
+      "owned": true,
+      "quality": "Legendary",
+      "stars": 1,
+      "equippedSlot": 1
+    },
+    "r2_indomitable_will": {
+      "owned": true,
+      "quality": "Epic",
+      "stars": 1,
+      "equippedSlot": 2
+    },
+    "r1_blade_of_lament": {
+      "owned": true,
+      "quality": "Legendary",
+      "stars": 1,
+      "equippedSlot": 3
+    },
+    "r1_insightful_eye": {
+      "owned": true,
+      "quality": "Legendary",
+      "stars": 1,
+      "equippedSlot": 4
+    },
+    "r2_crit_mastery": {
+      "owned": true,
+      "quality": "Epic",
+      "stars": 1,
+      "equippedSlot": 0
+    },
+    "r1_iron_fortress": {
+      "owned": true,
+      "quality": "Legendary",
+      "stars": 1,
+      "equippedSlot": 0
+    },
+    "r1_warrior_ess": {
+      "owned": true,
+      "quality": "Epic",
+      "stars": 1,
+      "equippedSlot": 0
+    },
+    "r1_strength_rules": {
+      "owned": true,
+      "quality": "Epic",
+      "stars": 2,
+      "equippedSlot": 0
+    },
+    "r1_feline_dance": {
+      "owned": true,
+      "quality": "Epic",
+      "stars": 2,
+      "equippedSlot": 0
+    },
+    "r1_crystal_armor": {
+      "owned": true,
+      "quality": "Epic",
+      "stars": 1,
+      "equippedSlot": 0
+    },
+    "r1_life_blessing": {
+      "owned": true,
+      "quality": "Epic",
+      "stars": 1,
+      "equippedSlot": 0
+    },
+    "r1_blade_tempest": {
+      "owned": true,
+      "quality": "Epic",
+      "stars": 1,
+      "equippedSlot": 0
+    },
+    "r1_pure_protect": {
+      "owned": true,
+      "quality": "Epic",
+      "stars": 1,
+      "equippedSlot": 0
+    },
+    "r1_counter_blade": {
+      "owned": true,
+      "quality": "Epic",
+      "stars": 1,
+      "equippedSlot": 0
+    }
+  },
+  "resources": {
+    "gold": "73.5K",
+    "morningStar": "8.51K",
+    "coloredDiamond": "240",
+    "stamina": "134/300",
+    "battleEssence": "420",
+    "normalPrayerTickets": 21,
+    "classPrayerTickets": 5,
+    "skillSelectTickets": 1,
+    "prayerProgress": "200/200 (chest I opened for Blade of Lament)",
+    "secretRealmTotal": 146,
+    "hammerStone": 48,
+    "pickaxeGold": 12,
+    "gloveEssence": 44,
+    "shovelSand": 42,
+    "dailyBuyPattern": "Buy 2-2-2-2 each day (Gilded Depths only)",
+    "fateFruits": 35,
+    "timeCrystals": 4
+  },
+  "companionsPets": {
+    "companions": [
+      {
+        "id": "qin",
+        "name": "Qin",
+        "giftType": "Practical gifts",
+        "stats": "SPD% + DMG Boost% + Crit Rate%",
+        "level": 28,
+        "priority": "Priority 1 (push 35, then 50, then 70)"
+      },
+      {
+        "id": "akane",
+        "name": "Akane",
+        "giftType": "Flowers",
+        "stats": "ATK% + DMG Boost% + Accuracy% (6 Bond Trinkets)",
+        "level": 26,
+        "priority": "Priority 2 (push 35, then 60 for pet tickets)"
+      },
+      {
+        "id": "hermes",
+        "name": "Hermes",
+        "giftType": "Precious gifts",
+        "stats": "ATK% + DMG Boost% + Accuracy%",
+        "level": 25,
+        "priority": "Priority 3 (push 35, then 60)"
+      },
+      {
+        "id": "killian",
+        "name": "Killian",
+        "giftType": "Books",
+        "stats": "HP% + DMG RES% + Crit RES%",
+        "level": 22,
+        "priority": "Hold (stop at 35 after the 14-day quest)"
+      },
+      {
+        "id": "village_chief",
+        "name": "Chief",
+        "giftType": "Practical gifts",
+        "stats": "HP% + DMG RES%",
+        "level": 20,
+        "priority": "Stop at Lv.20 (give gifts to Qin)"
+      }
+    ],
+    "selectedPet": "Locked until Lv.50 (Aegiswing / Nyxarchon)",
+    "petStatus": "Saving Bond Trinkets and Summon Crystals (60 Summon Crystals for a Mythic Fantomon)",
+    "relicProgress": "Farming Rare relics before Cinder Ridge; Dark and Fire"
+  },
+  "homestead": {
+    "cartStoneLv": 18,
+    "cartOreLv": 17,
+    "cartWoodLv": 16,
+    "cartSandLv": 12,
+    "cartOtherLv": 10,
+    "bedLv": 15,
+    "goddessStatues": "Opened every current area before the free bed speedup",
+    "shopRoutine": "Vendor Booth: 2-3 refreshes for discounted Stone and Wood"
+  },
+  "customQuestion": "I just became a Duelist (Lv.44). With this account, suggest the best 4 Techniques and 4 Charms skills for maps, the tower, and bosses, how to spend Dawnium until Lv.82, and what to watch for on Cinder Ridge."
+}
