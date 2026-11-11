@@ -2,12 +2,11 @@
 
 import { updateFantomon } from "@/shared/api/studio/fantomonActions";
 import type { FantomonCard, Studio } from "@/shared/api/studio/studio.types";
+import { FantomonCardView } from "./FantomonCard";
 import { GameIcon } from "@/shared/ui/game-icon";
-import { QualityRadios, StarRow } from "@/shared/ui/quality-picker";
 import { Card, CardContent, CardHeader, CardTitle } from "@/shared/ui/card";
 import { patchFantomon } from "@/shared/studio/patchGear";
 import { useSave } from "@/shared/ui/save-note";
-import { cn } from "@/shared/lib/utils";
 
 const SLOTS = [
   { slot: 1, label: "Main" },
@@ -70,53 +69,12 @@ export function FantomonBoard({ studio }: { studio: Studio }) {
         </div>
         <div className="grid gap-3 md:grid-cols-2">
           {pets.map((pet) => (
-            <article
+            <FantomonCardView
               key={pet.id}
-              draggable
-              onDragStart={(event) => {
-                event.dataTransfer.setData(
-                  "application/json",
-                  JSON.stringify({ id: pet.id, kind: "fantomon" }),
-                );
-              }}
-              className={cn(
-                "flex flex-col gap-2 border-2 border-border p-3",
-                !pet.owned && "opacity-40",
-              )}
-            >
-              <div className="flex items-start gap-2">
-                <GameIcon
-                  assets={studio.assets}
-                  iconKey={pet.iconKey}
-                  supabaseUrl={studio.supabaseUrl}
-                  alt={pet.name}
-                />
-                <div>
-                  <p className="font-heading">{pet.name}</p>
-                  <p className="text-sm">{pet.role}</p>
-                </div>
-                <label className="ml-auto flex flex-col items-center text-base font-heading">
-                  <input
-                    type="checkbox"
-                    className="size-6"
-                    checked={pet.owned}
-                    onChange={(event) =>
-                      save(pet, { owned: event.target.checked })
-                    }
-                  />
-                  Owned
-                </label>
-              </div>
-              <QualityRadios
-                name={`fantomon-${pet.id}`}
-                value={pet.quality}
-                onChange={(quality) => save(pet, { quality })}
-              />
-              <StarRow
-                value={pet.stars}
-                onChange={(stars) => save(pet, { stars })}
-              />
-            </article>
+              pet={pet}
+              studio={studio}
+              onSave={save}
+            />
           ))}
         </div>
       </CardContent>
